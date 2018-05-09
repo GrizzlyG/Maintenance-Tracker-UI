@@ -1,0 +1,15 @@
+#top{
+    position: relative;
+}
+
+#app-name{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#nav-links{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
