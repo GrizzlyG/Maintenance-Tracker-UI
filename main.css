@@ -1,13 +1,16 @@
 body{
     height: 100vh;
+    background: -moz-linear-gradient(300deg,#9c37b0,#e91e63);
 }
 
 #top {
     position: relative;
     height: 10%;
-    background-color: purple;
+    border-bottom: Solid whitesmoke 5px;
     text-decoration: none;
+    background: -moz-linear-gradient(300deg,rgba(50,50,50,0.2),rgba(40,40,40,0.2));
     color: pink;
+    border-radius: 0 0 10px 10px; 
 }
 
 #top div{
@@ -16,19 +19,33 @@ body{
     float: left;
     height: 100%;
     text-align: center;
+    padding-top: 5px; 
+
+
 }
 
 #app-name{
     left: 0;
+    padding: 0 5px 0 5px; 
+    border: none;
+    font-family: monospace;
+    font-size: x-large;
+    border-right: Solid whitesmoke 5px;
 }
 
 #nav-links{
     right: 0;
     text-decoration: none;
+    padding: 0 5px 0 5px;
+    border : none;
+    border-left: Solid whitesmoke 5px;
+
 }
 
 #nav-links a{
     text-decoration: none;
+    padding: 10px;
+    color:aliceblue;
 }
 
 
