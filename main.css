@@ -1,15 +1,35 @@
-#top{
+body{
+    height: 100vh;
+}
+
+#top {
     position: relative;
+    height: 10%;
+    background-color: purple;
+    text-decoration: none;
+    color: pink;
+}
+
+#top div{
+    position: absolute;
+    display: block;
+    float: left;
+    height: 100%;
+    text-align: center;
 }
 
 #app-name{
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
 }
 
 #nav-links{
-    position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 0;
+    text-decoration: none;
 }
+
+#nav-links a{
+    text-decoration: none;
+}
+
+
+
