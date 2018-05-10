@@ -100,3 +100,35 @@ body{
     right: 0;
 
 }
+
+#form{
+    position: relative;
+    width: 300px;
+    height: auto;
+    top: 100px;
+    margin: auto;
+    color: burlywood;
+
+
+}
+
+legend{
+    font-family: Monospace;
+    font-size: xx-large;
+}
+
+fieldset ,fieldset input{
+    border: none;
+    border-bottom: solid 2px indigo;
+    background-color: inherit;
+    border-top: solid 2px indigo;
+    border-radius: 0 20% 50% 20%;
+    
+}
+
+fieldset #submit{
+    width: 70%;
+    border:none;
+    color: burlywood;
+    background-color: #673ab7;
+}
