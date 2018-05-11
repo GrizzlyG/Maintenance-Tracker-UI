@@ -2,23 +2,40 @@
 <html>
 <head>
     <title>
-        User Page
+        Admin Page
     </title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<section id="user-ui">
+<div id="top">
+    <div id="app-name">
+        Maintenance Tracker
+    </div>
+    <div id="nav-links">
+        <nav>
+            <a href="#">Logout</a>
+            <a href="#">About</a>
+        </nav>
+
+    </div>
+</div>
+
+<section id="admin-ui">
 <div id="action">
 <div >
     <div id="repair" class="request">
         <label>
-            Repair request
+            Repair requests
         </label>
-        <textarea>
-
-        </textarea><br>
+        <p>
+            ...
+        </p>
+        <input type="checkbox">
         <button>
-            Request
+            Accept
+        </button>
+        <button>
+            Reject
         </button>
     </div>
 
@@ -26,11 +43,15 @@
         <label>
             Maintenance Request
         </label>
-        <textarea>
-
-        </textarea><br>
+        <p>
+            ...
+        </p>
+        <input type="checkbox">
         <button>
-            Request
+            Accept
+        </button>
+        <button>
+            Reject
         </button>
 
     </div>
