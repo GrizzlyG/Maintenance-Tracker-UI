@@ -87,7 +87,7 @@ body{
     font-family: Monospace, monospace;
     font-size: 72px;
 }
-
+/*remove this block*/
 #one{
     display: block;
 }
@@ -150,18 +150,19 @@ fieldset #submit{
     position: absolute;
     background-color: rgba(0,0,0,0.2);
     padding: 6px;
-    width: 50%;
+    width: 35%;
     height: 50%;
     left: 0;
     color: #ce93d8;
-    border-right: Solid 5px blueviolet;  
+    border-right: Solid 5px whitesmoke;  
 }
 
 #repair{
-   
+   height: auto;
 }
 #maintenance{
-    bottom: 0;
+    height: auto;
+    margin-top: 150px;
 }
 textarea{
     width:100%;
@@ -172,11 +173,18 @@ textarea{
     position: absolute;
     padding: 5px;
     margin: 5px;
-    width: 45%;
+    width: 60%;
     height: 100%;
+    border-left: Solid 5px whitesmoke;
     background-color: rgba(0,0,0,0.2);
     right: 0;
 }
+
+.display{
+    background: whitesmoke;
+}
+
+#expand
 
 
 

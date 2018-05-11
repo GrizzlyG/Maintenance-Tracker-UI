@@ -20,46 +20,66 @@
     </div>
 </div>
 
-<section id="admin-ui">
+<section id="user-ui">
+
 <div id="action">
-<div >
     <div id="repair" class="request">
         <label>
             Repair requests
         </label>
-        <p>
+        <p class="display">
             ...
         </p>
-        <input type="checkbox">
-        <button>
-            Accept
+
+        <button id="accept" class="response">
+            Approve
         </button>
-        <button>
+        <button id="reject" class="response">
             Reject
         </button>
+
+        <label>
+            Resolved
+        </label>
+        <input type="checkbox">
     </div>
 
     <div id="maintenance" class="request">
         <label>
             Maintenance Request
         </label>
-        <p>
+        <p class="display">
             ...
         </p>
-        <input type="checkbox">
+
+
         <button>
-            Accept
+            Approve
         </button>
         <button>
             Reject
         </button>
 
-    </div>
+        <label>
+            Resolved
+        </label>
+        <input type="checkbox">
 </div>
-</div>
-<div id="view">
 
 </div>
+<div id="view">
+    <div>
+        <p class="display">
+            User request displayed here
+        </p>
+        <button id="expand">
+            Expand
+        </button>
+
+    </div>
+
+</div>
+
 </section>
 
 </body>
