@@ -1,0 +1,41 @@
+#login-page{
+	height: 100vh;
+}
+
+#top{
+	background-color: #bbb;
+
+	width: 100vw;
+	height: 15%;
+}
+
+#nav-bar{
+	background-color: #aaa;
+}
+
+#left{
+	background-color: #ccc;
+
+	float: left;
+
+	width: 50%;
+	height: 100%;
+}
+
+#right{
+	background-color: #eee;
+
+	float: left;
+
+	width: 50%;
+	height: 100%;
+}
+
+#bottom{
+	background-color: #343;
+
+	clear: both;
+
+	width: 100vw;
+	height: 15%;
+}
